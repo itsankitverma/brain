@@ -25,7 +25,7 @@ function Solutions() {
         return (
             <>
                 <div style={{ display:"flex" }}>
-                    <Card>
+                    <Card className="borderGlow">
                         <CardImg top width="100%" style={{ width:"50px", marginTop:50 ,position:"relative", left:"60px"}} src={developer_hiring} alt="Card image cap" />
                         <CardBody>
                         <CardTitle tag="h5" style={{ fontSize:11 }}>Developer Hiring</CardTitle>
@@ -33,7 +33,7 @@ function Solutions() {
                         <Button className="bgc" style={{ fontSize:11, backgroundColor:"transparent", color:"black" }}>Learn More</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card className="borderGlow"> 
                         <CardImg top width="100%" style={{ width:"60px", marginTop:50 ,position:"relative", left:"60px"}} src={app_development} alt="Card image cap" />
                         <CardBody style={{ fontSize:11 }}>
                         <CardTitle tag="h5">App Development</CardTitle>
@@ -41,7 +41,7 @@ function Solutions() {
                         <Button className="bgc" style={{ fontSize:11, backgroundColor:"transparent", color:"black" }}>Learn More</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card className="borderGlow">
                         <CardImg top width="100%" style={{ width:"60px", marginTop:50 ,position:"relative", left:"60px"}} src={web_development} alt="Card image cap" />
                         <CardBody style={{ fontSize:11 }}>
                         <CardTitle tag="h5">Web Development</CardTitle>
@@ -49,7 +49,7 @@ function Solutions() {
                         <Button className="bgc" style={{ fontSize:11, backgroundColor:"transparent", color:"black" }}>Learn More</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card className="borderGlow">
                         <CardImg top width="100%" style={{ width:"60px", marginTop:50 ,position:"relative", left:"60px"}} src={digital_marketing} alt="Card image cap" />
                         <CardBody style={{ fontSize:11 }}>
                         <CardTitle tag="h5">Digital Marketing</CardTitle>

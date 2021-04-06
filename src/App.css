@@ -16,5 +16,17 @@
 }
 
 .borderGlow:hover{
-  border: 2px solid black
+  border: 2px solid black;
+  animation: 2s linear infinite nikhil;
+  
+}
+@keyframes nikhil {
+  0%{
+    transform: translate3d(50px 100px);
+  }
+  100%{
+    transform: translate3d(100px 150px);
+  }
+  
+  
 }

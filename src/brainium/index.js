@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Banner from './banner/banner';
 import Solutions from './Solutions/Solutions';
 import SvcandSoln from './Servicesandsolutions/SvcandSoln';
+import Partner  from './Partner/Partner';
 
 function index() {
     return (
@@ -12,6 +13,7 @@ function index() {
             <Banner />
             <Solutions />
             <SvcandSoln />
+            <Partner />
         </div>
     )
 }
