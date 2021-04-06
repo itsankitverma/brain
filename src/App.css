@@ -9,3 +9,12 @@
 .bgcolor{
   background-color: #a606b8 !important;
 }
+
+.bgc:hover{
+  background-color: #eb1d42 !important;
+  color: white !important;
+}
+
+.borderGlow:hover{
+  border: 2px solid black
+}
